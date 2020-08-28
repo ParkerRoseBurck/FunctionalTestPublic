@@ -1,0 +1,194 @@
+﻿
+/*Login message before reaching the site*/
+.login-message {
+    width: 40%;
+    margin-left: 30%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    background-color: lightblue;
+    border-radius: 10px;
+    text-align: center;
+    color: #35363A;
+}
+.login-message a{
+    color: midnightblue!important;
+    font-size: 2vw;
+    background-color: white;
+    padding: 1%;
+    border-radius: 10px;
+    width: 40%;
+    margin-left: 30%;
+}
+
+/*nav bar style and links*/
+.navbar {
+    margin-bottom: 0px !important;
+    background-color: rgba(255, 255, 255, 0.70) !important;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 8vw!important;
+    z-index: 100;
+}
+.navbar .container{
+    height: 8vw;
+}
+.navbar-brand{
+    width: 20vw;
+    height: 6vw;
+    
+    background-image: url("../img/bemo-logo2.png");
+    background-size:contain;
+    background-repeat:no-repeat;
+}
+.navbar-nav{
+    flex-direction: row-reverse!important;
+}
+.navbar li{
+    margin: 2%;
+    
+}
+    .navbar li a {
+        color: #363739
+    }
+.navbar li a:hover{
+    text-decoration:underline;
+}
+.navbar ul li form button:hover{
+    text-decoration: underline
+}
+.nav-item form{
+    height: 100%!important;
+}
+
+main{
+    margin-top: 10vw;
+}
+.container{
+    width: 100%!important;
+    margin: 0px!important;
+    padding: 0px!important;
+}
+@media (min-width: 1200px) {
+    .container{
+        max-width:100%!important;
+    }
+
+}
+/*Main page title - the only h1 on this site so far*/
+.mainpage-banner h1 {
+    text-align: center;
+    padding-top: 300px;
+    color: white;
+    text-decoration: underline;
+    line-height: 3vw;
+    font-weight: 300;
+    letter-spacing: 8px;
+}
+/* font css, h2, h3 and p*/
+h2{
+    font-size: 1.3vw;
+    color: darkblue;
+}
+h3 {
+    font-size: 1.3vw;
+    color: #35363A;
+}
+p {
+    color: #35363A;
+}
+/*more font css, links, buttons, emphasis tags etc..*/
+.mainpage-content p a{
+    color: orangered!important;
+}
+.contact-content em{
+    font-weight: 600;
+}
+em {
+    text-decoration: underline;
+    font-style: normal;
+}
+p{
+    clear: both;
+}
+
+/*image/title banners - main and contact pages*/
+    .mainpage-banner {
+    background-image: url("../img/cda-interview-guide.jpg");
+    background-size: 100%, auto;
+    background-position-y: top;
+    height: 48vw;
+    width: 100%;
+    margin-bottom: 5%;
+}
+    
+.contact-banner{
+    background-image: url("../img/contact-us.png");
+    background-size: cover;
+    height: 48vw;
+    width: 100%;
+}
+
+/*General content of each page*/
+.mainpage-content{
+    width: 90%;
+    margin-left: 5%;
+}
+.mainpage-content ul{
+    list-style:none;
+    padding: 0px;
+}
+    .mainpage-content ul li a {
+        color: orangered!important;
+
+    }
+
+.contact-content {
+    width: 90%;
+    margin-left: 5%;
+}
+
+/*Contact form*/
+form{
+    width: 90%;
+    margin-left: 5%;
+    text-align: center;
+
+}
+    form input {
+        border: 0px;
+        background-color: #BABBBE;
+        width: 100% !important;
+        margin-bottom: 2vw;
+    }
+    form input#message{
+        height: 10vw;
+    }
+    .form-buttons{
+        width: 100%;
+    }
+    input[type=submit]{
+        width: 10%!important;
+        margin-left: 1%;
+        float: left;
+        color:midnightblue
+    }
+input[type=reset] {
+    width: 10% !important;
+    margin-left: 39%;
+    float: left;
+    color:midnightblue
+}
+
+/*footer*/
+footer{
+    background-color: midnightblue;
+    color: white!important;
+    padding-left: 5%;
+}
+footer em, footer em a{
+    color: orangered!important;
+    text-decoration:underline;
+    font-style:normal;
+}
+
